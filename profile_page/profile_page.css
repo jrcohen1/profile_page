@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+    .navBarBox{
+        height: 95px;
+        width: 2000px;
+        background-color: black;
+    }
+
+    .profileMainBar{
+        height: 95px;
+        width: 1000px;
+        background-color: black;
+        position: relative;
+        left: 35px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+        .profileTitle{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 70px;
+            font-style:inherit;
+            color: white;
+        }
+
+        .home{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            position: relative;
+            top: 19px;
+            color: white;
+        }
+
+        .myProfile{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            position: relative;
+            top: 19px;
+            color: white;
+        }
+
+        .findConnections{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 35px;
+            position: relative;
+            top: 19px;
+            color: white;
+        }
+
+    .profileSignOutBar{
+        height: 95px;
+        width: 1000px;
+        background-color: black;
+        position: relative;
+        top: -95px;
+        right: -1000px;
+    }
+
+        .signOutBox{
+            height: 60px;
+            width: 200px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 18px;
+            right: -500px;
+        }
+
+            .signOutButton{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 35px;
+                color: white;
+                position: relative;
+                top: 10px;
+            }
+
+.mainContentBox{
+    height: 1700px;
+    width: 2000px;
+    background-color: whitesmoke;
+}
+
+    .userCardBox{
+        height: 800px;
+        width: 950px;
+        background-color: white;
+        position: relative;
+        top: 100px;
+        left: 50px;
+        border-style: groove;
+    }
+
+        .userBanner{
+            height: 180px;
+            width: 950px;
+            background-color: rgb(0, 217, 255);
+        }
+
+        .userContent{
+            height: 620px;
+            width: 950px;
+            background-color: white;
+        }
+
+            #jane{
+                height: 190px;
+                width: 200px;
+                border-radius: 100px;
+                position: relative;
+                top: -60px;
+                left: 80px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .name{
+                font-size: 80px;
+                position: relative;
+                top: -30px;
+                left: 60px;
+            }
+
+            .locationBox{
+                position: relative;
+                left: 70px;
+            }
+
+                #map-marker{
+                    height: 40px;
+                    width: auto;
+                    position: relative;
+                    right: 10px;
+                }
+
+                .location{
+                    font-size: 60px;
+
+                }
+        
+            .bio1{
+                height: 150px;
+                width: 700px;
+                position: relative;
+                top: 20px;
+                left: 60px;
+                font-size: 40px;
+            }
+
+            .editProfile{
+                font-size: 40px;
+                position: relative;
+                left: 50px;
+                top: 20px;
+            }
+
+                #gear{
+                    height: 40px;
+                    position: relative;
+                    top: 7px;
+                }
+
+    .connectionRequestsBox{
+        height: 450px;
+        width: 700px;
+        background-color: white;
+        position: relative;
+        left: 1200px;
+        bottom: 700px;
+        border-style: groove;
+    }
+
+        .connectionRequestsBanner{
+            height: 120px;
+            width: 700px;
+            background-color: grey;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+            .cReq{
+                color: white;
+                position: relative;
+                left: 100px;
+            }
+
+        .connectionRequestsContent{
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            position: relative;
+            top: 50px;
+            font-size: 55px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .todd-profile{
+            height: 60px;
+            width: 700px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            top: 20px;
+
+        }
+            #todd{
+                border-radius: 100px;
+            }
+
+        .phil-profile{
+            height: 60px;
+            width: 700px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            top: 100px;
+
+        }
+
+            #phil{
+                border-radius: 100px;
+            }
+
+    .yourConnectionsBox{
+        height: 900px;
+        width: 700px;
+        background-color: white;
+        position: relative;
+        left: 1200px;
+        bottom: 600px;
+        border-style: groove;
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+        .yourConnectionsBanner{
+            height: 120px;
+            width: 700px;
+            background-color: grey;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+                .yConn{
+                    color: white;
+                    position: relative;
+                    left: 140px;
+                }
+
+        .yourConnectionsContent{
+            height: 700px;
+            width: 700px;
+            background-color: white;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            font-size: 60px;
+            border-style: groove;
+            position: relative;
+            right: 5px;
+        }
+
+            .adrienProfile{
+                height: 60px;
+                width: 700px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                position: relative;
+                top: 15px;
+                right: 70px;
+            }
+
+                #adrien{
+                    border-radius: 100px;
+                }
+
+            .anneProfile{
+                height: 60px;
+                width: 700px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                position: relative;
+                top: 15px;
+                right: 85px;
+            }
+
+                #anne{
+                    border-radius: 100px;
+                }
+
+            .alayneProfile{
+                height: 60px;
+                width: 700px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                position: relative;
+                top: 15px;
+                right: 70px;
+            }
+
+                #alayne{
+                    border-radius: 100px;
+                }
+
+            .arryProfile{
+                height: 60px;
+                width: 700px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                position: relative;
+                top: 15px;
+                right: 80px;
+            }
+
+                #arry{
+                    border-radius: 100px;
+                }
+        .vMore{
+            position: relative;
+            left: 20px;
+            font-size: 40px;
+        }
+
+    .educationBox{
+        height: 600px;
+        width: 950px;
+        background-color: white;
+        position: relative;
+        bottom: 1200px;
+        left: 50px;
+        border-style: groove;
+    }
+
+        .educationBanner{
+            height: 120px;
+            width: 950px;
+            background-color: grey;
+            font-size: 60px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+            .edu{
+                position: relative;
+                left: 30px;
+                color: white;
+            }
+
+        .educationContent{
+            font-size: 60px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+
+            .dates{
+                color: grey;
+                font-size: 50px;
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
